@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+}
+.input{
+    border-radius: 5rem;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    background-color:chartreuse;
+    padding:20px;    
+
+}
+#statement{
+    font-size: 20px;
+}
+input{
+    border:none;
+}
+input:hover{
+    border-radius: 5rem;
+    border: 2px solid black;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  /*button ko centre kiya isse*/
+    padding: 30px;
+
+}
+.form{
+    background-color: aliceblue;
+    padding:30px;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;   
+}
+.from_main p{
+    font-size: 25px;
+}
+.to_main p{
+    font-size: 25px;
+}
+.dropdown{
+    font-size: 20px;
+    border-radius: 3rem;
+}
+.dropdown:hover{
+    opacity: 0.4;
+}
+#msg{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button{
+    color:black;
+    background-color: greenyellow;
+    font-size: 20px;
+    border-radius: 5rem;
+    padding: 5px;
+}
+
